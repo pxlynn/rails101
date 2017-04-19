@@ -20,7 +20,7 @@ class GroupsController < ApplicationController
    if @group.save
      redirect_to groups_path
    else
-     rendr :new
+     render :new
    end
  end
 
